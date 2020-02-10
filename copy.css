@@ -1,0 +1,17 @@
+.copyicon i{
+	color: #48c774;
+}
+
+.copyicon svg{
+	color: #48c774;
+}
+.copyclick{
+
+	background-color: rgb(7, 149, 168);
+	color: rgb(209, 209, 209);
+
+}
+
+.copyicon.clicked{
+	margin-right: 40px;
+}
