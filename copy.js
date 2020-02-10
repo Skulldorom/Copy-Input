@@ -16,7 +16,7 @@ $(document).ready(function(){
         icon = $(this).find('.copyicon')
         icon.finish()
         icon.animate({width:'toggle'},250,function(){
-            icon.html('<span class="tag" style="margin-right:10px;">Copied!</span><i class="fas fa-check"></i>')
+            icon.html('<span class="copytag" style="margin-right:10px;">Copied!</span><i class="fas fa-check"></i>')
             input.addClass("copyclick")
             icon.addClass('clicked')
             icon.animate({width:'toggle'},500,function(){
