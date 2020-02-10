@@ -25,7 +25,7 @@ $(document).ready(function(){
             input.addClass("copyclick")
             icon.addClass('clicked')
             icon.animate({width:'toggle'},500,function(){
-                icon.delay(1000).animate({width:'toggle'},500,function(){
+                icon.delay(500).animate({width:'toggle'},500,function(){
                     input.removeClass("copyclick")
                     icon.removeClass('clicked')
                     icon.html('<i class="fas fa-copy"></i>')
