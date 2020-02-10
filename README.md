@@ -11,7 +11,9 @@ Please install the prerequisites listed below to use, an example is attached in 
 ```
 The "copy-input" and "copy-value" classes are requied for the code to work
 
-The minimum code is as follows:
+There are 2 ways to use Copy-Input, the html within could be copied or adding the copytext attribute to the label/span whos value will be copied as shown below:
+
+Example 1
 ```
 <div class="field copy-input">
   <div class="control">
@@ -19,7 +21,16 @@ The minimum code is as follows:
   </div>
 </div>
 ```
-style can be edited using blumas classes
+Example 2
+```
+<div class="field copy-input">
+  <div class="control">
+    <label class="input copy-value" copytext="This text will be copied to your clipboard, Example 2">Click Me!</label> 
+  </div>
+</div>
+```
+
+style can be edited using bulma classes
 
 ### Prerequisites
 

@@ -10,7 +10,12 @@ $(document).ready(function(){
     }
 
     $('.copy-input').on('click',function(){
-        value = $(this).find('.copy-value').html()
+        if ($(this).find('.copy-value').attr("copytext")){
+          value = $(this).find('.copy-value').attr("copytext")
+        }
+        else{
+          value = $(this).find('.copy-value').html()
+        }
         input = $(this).find('.copy-value')
         copy_text(value);
         icon = $(this).find('.copyicon')
