@@ -17,7 +17,7 @@ $(document).ready(function(){
           value = $(this).find('.copy-value').html()
         }
         input = $(this).find('.copy-value')
-        copy_text(value);
+        copy_text(value,this);
         icon = $(this).find('.copyicon')
         icon.finish()
         icon.animate({width:'toggle'},250,function(){
@@ -36,9 +36,9 @@ $(document).ready(function(){
     });
 });
 
-function copy_text(text) {
+function copy_text(text,elem) {
     var textArea = document.createElement("textarea");
-    var MainElement = $('body');
+    var MainElement = $(elem);
     textArea.value = text;
     textArea.setAttribute('readonly', '');
     textArea.style.position = 'absolute';
