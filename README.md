@@ -6,7 +6,7 @@ jquery and css styler for html element to copy text to clipboard from a label or
 
 Please install the prerequisites listed below to use and link "copy.js" script, an example is attached in index.html.
 ```
-<script type=text/javascript src="https://rawcdn.githack.com/Skulldorom/Copy-Input/9e669e035b0d14fb735cf51f89c12014a3f47818/copy.js"></script>
+<script type=text/javascript src="https://rawcdn.githack.com/Skulldorom/Copy-Input/76cecd4c63a6e79bdcd9e0e6245743cfcd47e09b/copy.js"></script>
 ```
 The "copy-input" and "copy-value" classes are requied for the code to work
 
