@@ -1,3 +1,5 @@
+$('head').append('<link rel="stylesheet" href="https://rawcdn.githack.com/Skulldorom/Copy-Input/9e669e035b0d14fb735cf51f89c12014a3f47818/copy.css" type="text/css" />');
+
 $(document).ready(function(){
     //create copy input
     $('.copy-input').each(function(){
